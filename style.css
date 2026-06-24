@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #3B1F24;
+  text-align: center;
+  color: #241416;
+}
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  background-color: #F7E7CE;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.question {
+    margin-bottom: 20px;
+    background-color: #E6CDAA;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+
+.alim {
+    margin-bottom: 10px;
+}
+

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Week End</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        
+        <div class="introduction">
+            <h1>Preparation du week-end</h1>
+
+            <h3>Quelques informations sont nécessaires pour finaliser l'organisation</h3>
+        </div>
+
+
+        <form>
+
+
+            <div class="question logistique">
+                <label for="heure_arrivee">Heure d'arrivée :</label>
+                <input id="heure_arrivee" type="time">
+            </div>
+
+
+            <div class="question vin">
+                <p>Aimez-vous le vin blanc ? :</p>
+                    <div class="reponse">
+                        <input type="radio" id="oui_vin" name="vin" value="oui_vin">
+                        <label for="oui_vin">Oui</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="non_vin" name="vin" value="non_vin">
+                        <label for="non_vin">Non</label>
+                    </div>
+
+
+                <p>Si oui, une préférence pour :</p>
+                    <div class="reponse">
+                        <input type="radio" id="sec" name="type_vin" value="sec">
+                        <label for="sec">le sec</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="moelleux" name="type_vin" value="moelleux">
+                        <label for="moelleux">le moelleux</label>
+                    </div>
+            </div>
+
+
+            <div class="question pref_alim">
+                <div class="alim">
+                    <label for="allergie">Allergies / Intolerances :</label>
+                    <input id="allergie" type="text">
+                </div>
+
+                <div class="alim">
+                    <label for="aliment">Aliment(s) détesté(s) :</label>
+                    <input id="aliment" type="text">
+                </div>
+            </div>
+
+
+            <div class="question petit_dej">
+                <label for="viennoiserie">Viennoiserie favorite :</label>
+                <input id="viennoiserie" type="text">
+
+
+                <p>Boisson pour le petit-dej :</p>
+                    <div class="reponse">
+                        <input type="radio" id="cafe" name="petitdej" value="cafe">
+                        <label for="cafe">Café</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="jus" name="petitdej" value="jus">
+                        <label for="jus">Jus de fruits</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="lesdeux" name="petitdej" value="lesdeux">
+                        <label for="lesdeux">Les deux</label>
+                    </div>
+            </div>
+
+
+            <div class="question desir">
+                <label for="envie_particuliere">Envie particulière :</label>
+                <input id="envie_particuliere" type="text">
+            </div>
+
+
+            <div class="question trotinette">
+                <p>Des déplacements seront faits en trotinette électrique:</p>
+                    <div class="reponse">
+                        <input type="radio" id="ok" name="deplacement" value="ok">
+                        <label for="ok">Je fais confiance au pilote</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="mouais" name="deplacement" value="mouais">
+                        <label for="mouais">J'ai une bonne assurance</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="fuck" name="deplacement" value="fuck">
+                        <label for="fuck">On a qu'une vie</label>
+                    </div>
+            </div>
+
+
+            <div class="envoie_formulaire">
+                <button>Envoyer</button>
+            </div>
+
+
+        </form>
+
+    </body>
+</html>
