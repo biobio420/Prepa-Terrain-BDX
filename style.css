@@ -107,6 +107,12 @@ input[type="radio"] {
   margin-top: 4px;
 }
 
+input[type="time"] {
+  appearance: none;
+  -webkit-appearance: none;
+  text-align: center;
+}
+
 button {
   background: #3B1F24;
   color: #F7E7CE;
