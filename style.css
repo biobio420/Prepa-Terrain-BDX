@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Police_titre";
+  src: url("fonts/Super_Nugget.ttf") format("truetype");
+}
+
 body {
   font-family: Arial, sans-serif;
   background-color: #3B1F24;
@@ -14,23 +19,79 @@ form {
   max-width: 500px;
   margin: 0 auto;
   background-color: #F7E7CE;
-  padding: 30px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  padding: 40px;
+  border-radius: 18px;
+  box-shadow: 0 15px 35px rgba(0,0,0,.25);
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: "Police_titre";
+  color: #E6CDAA;
+  font-size:52px;
+  margin-bottom:10px;
+}
+
+.introduction h3{
+  line-height:1.6;
+  font-weight:normal;
+  max-width:700px;
+  margin:auto;
+  margin-bottom:40px;
+}
+
+input[type="text"],
+input[type="time"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+input[type="text"]:focus,
+input[type="time"]:focus {
+    outline: none;
+}
+
+button{
+    background:#3B1F24;
+    color:#F7E7CE;
+    padding:15px 35px;
+    border:none;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:bold;
+    cursor:pointer;
+    transition:.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
 .question {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     background-color: #E6CDAA;
-    padding: 20px;
-    border-radius: 12px;
+    padding: 28px;
+    border-radius: 16px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
+    transition:.3s;
+}
+
+.question:hover{
+    transform:translateY(-3px);
 }
 
 .alim {
     margin-bottom: 10px;
+}
+
+.fin{
+    font-style:italic;
+    margin-top:40px;
+    opacity:.8;
 }
 

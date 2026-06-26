@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html lang="fr">
     <head>
-        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Week End</title>
         <link href="style.css" rel="stylesheet">
     </head>
     <body>
         
         <div class="introduction">
-            <h1>Preparation du week-end</h1>
+            <h1>☀️ Sunset Plan</h1>
 
-            <h3>Quelques informations sont nécessaires pour finaliser l'organisation</h3>
+            <h3>
+                Madame OubariHe,<br><br>
+
+                Pour que <strong>Sunset Plan</strong> se déroule dans les meilleures conditions, merci de compléter les quelques informations ci-dessous.<br><br>
+
+                <em>(T'inquiète, c'est pas noté.)</em>
+            </h3>
         </div>
 
 
@@ -21,13 +28,30 @@
             
 
             <div class="question logistique">
-                <label for="heure_arrivee">Heure d'arrivée :</label>
+                <label for="heure_arrivee">L'heure de votre arrivée en Gare de Bordeaux ?</label>
                 <input id="heure_arrivee" type="time" name="heure_arrivee">
+
+                 
+                <p>Des déplacements en vrai bolide de compétition vous seront proposés. Quel est votre ressenti par rapport à ca ?:</p>
+                    <div class="reponse">
+                        <input type="radio" id="ok" name="deplacement" value="ok">
+                        <label for="ok">Le pilote gère, et il va pas fatigué des jolies pieds supplément El Morjene </label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="mouais" name="deplacement" value="mouais">
+                        <label for="mouais">J'ai une bonne assurance, ça va aller !</label>
+                    </div>
+
+                    <div class="reponse">
+                        <input type="radio" id="fuck" name="deplacement" value="fuck">
+                        <label for="fuck">Yo soy Franscesco Virgulini, FIUUUUUNNNNNN !!!</label>
+                    </div>
             </div>
 
 
             <div class="question vin">
-                <p>Aimez-vous le vin blanc ? :</p>
+                <p>Le vin blanc est-il un plaisir à votre palais ?</p>
                     <div class="reponse">
                         <input type="radio" id="oui_vin" name="vin" value="oui_vin">
                         <label for="oui_vin">Oui</label>
@@ -39,38 +63,38 @@
                     </div>
 
 
-                <p>Si oui, une préférence pour :</p>
+                <p>Si c'est une validation, auriez-vous une préfrence pour ? :</p>
                     <div class="reponse">
                         <input type="radio" id="sec" name="type_vin" value="sec">
-                        <label for="sec">le sec</label>
+                        <label for="sec">Le sec</label>
                     </div>
 
                     <div class="reponse">
                         <input type="radio" id="moelleux" name="type_vin" value="moelleux">
-                        <label for="moelleux">le moelleux</label>
+                        <label for="moelleux">Le moelleux</label>
                     </div>
             </div>
 
 
             <div class="question pref_alim">
                 <div class="alim">
-                    <label for="allergie">Allergies / Intolerances :</label>
+                    <label for="allergie">Des allergies ou Intolérences sont-elles connues, afin d'éviter un désastre non volontaire ? :</label>
                     <input id="allergie" type="text" name="allergie">
                 </div>
 
                 <div class="alim">
-                    <label for="aliment">Aliment(s) détesté(s) :</label>
+                    <label for="aliment">Un, ou plusieurs aliments, épices... que vous n'appréciez pas ? :</label>
                     <input id="aliment" type="text" name="aliment">
                 </div>
             </div>
 
 
             <div class="question petit_dej">
-                <label for="viennoiserie">Viennoiserie favorite :</label>
+                <label for="viennoiserie">Votre plaisir croustillant favori au petit-déjeuner ?</label>
                 <input id="viennoiserie" type="text" name="viennoiserie">
 
 
-                <p>Boisson pour le petit-dej :</p>
+                <p>Et comme accompagnement hydratant, vous êtes plutôt </p>
                     <div class="reponse">
                         <input type="radio" id="cafe" name="petitdej" value="cafe">
                         <label for="cafe">Café</label>
@@ -83,33 +107,14 @@
 
                     <div class="reponse">
                         <input type="radio" id="lesdeux" name="petitdej" value="lesdeux">
-                        <label for="lesdeux">Les deux</label>
+                        <label for="lesdeux">Ou alors les deux</label>
                     </div>
             </div>
 
 
             <div class="question desir">
-                <label for="envie_particuliere">Envie particulière :</label>
+                <label for="envie_particuliere">Une envie particulière à nous partager ? :</label>
                 <input id="envie_particuliere" type="text" name="envie_particuliere">
-            </div>
-
-
-            <div class="question trotinette">
-                <p>Des déplacements seront faits en trotinette électrique:</p>
-                    <div class="reponse">
-                        <input type="radio" id="ok" name="deplacement" value="ok">
-                        <label for="ok">Je fais confiance au pilote</label>
-                    </div>
-
-                    <div class="reponse">
-                        <input type="radio" id="mouais" name="deplacement" value="mouais">
-                        <label for="mouais">J'ai une bonne assurance</label>
-                    </div>
-
-                    <div class="reponse">
-                        <input type="radio" id="fuck" name="deplacement" value="fuck">
-                        <label for="fuck">On a qu'une vie</label>
-                    </div>
             </div>
 
 
@@ -117,6 +122,7 @@
                 <button>Envoyer</button>
             </div>
 
+            <div>Le reste... est une surprise 🌅</div>
 
         </form>
 
